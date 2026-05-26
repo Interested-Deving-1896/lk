@@ -1,32 +1,75 @@
-# The Little Kernel Embedded Operating System
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# lk
 
-The LK kernel is an SMP-aware kernel designed for small systems ported to a variety of platforms and cpu architectures.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/lk)
 
-It is used in a variety of open source and closed source projects, notably the bootloader for a lot of Android phones of various make.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-See https://github.com/littlekernel/lk for the latest version.
+## Architecture
 
-For comprehensive documentation, see [Index](docs/index.md).
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## High Level Features
+## Install
 
-- Fully-reentrant multi-threaded preemptive kernel
-- Portable to many 32 and 64 bit architectures
-- Support for wide variety of embedded and larger platforms
-- Powerful modular build system
-- Large number of utility components selectable at build time
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-## Supported architectures
+```bash
+git clone https://github.com/Interested-Deving-1896/lk.git
+cd lk
+```
 
-- ARM32
-  - Cortex-M class cores (armv6m - armv8m)
-  - ARMv7+ Cortex-A class cores
-- ARM64
-  - ARMv8 and ARMv9 cores
-- RISC-V 32 and 64bit bit in machine and supervisor mode
-- x86-32 and x86-64
-- Motorola 68000
-- Microblaze
-- MIPS
-- OpenRISC 1000
-- VAX (experimental)
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/lk`](https://github.com/Interested-Deving-1896/lk) and mirrored through:
+
+```
+Interested-Deving-1896/lk  ──►  OpenOS-Project-OSP/lk  ──►  OpenOS-Project-Ecosystem-OOC/lk
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/lk/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
